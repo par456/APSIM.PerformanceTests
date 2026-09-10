@@ -20,7 +20,7 @@ namespace APSIM.POStats.Portal.Controllers
         private static object _lock = new();
 
         /// <summary>Final timeout in minutes. Controls how long to wait before finally closing a pull request.</summary>
-        private const double FINAL_TIMEOUT = 40.0;
+        private const double FINAL_TIMEOUT = 50.0;
 
         /// <summary>Event handler for finish timer.</summary>
         private static void OnCheckIfFinished(Object source, ElapsedEventArgs e)
